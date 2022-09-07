@@ -1,0 +1,134 @@
+{
+    "_vcs_unit__864892223": [
+        "_vcs_unit__864892223",
+        "LEJvF",
+        "module",
+        22
+    ],
+    "std": [
+        "std",
+        "reYIK",
+        "module",
+        2
+    ],
+    "test": [
+        "test",
+        "x9Hvb",
+        "module",
+        3
+    ],
+    "tbench_top": [
+        "tbench_top",
+        "Mk7In",
+        "module",
+        4
+    ],
+    "AXI_AW_INTF": [
+        "AXI_AW_INTF",
+        "bFvkb",
+        "module",
+        5
+    ],
+    "AXI_W_INTF": [
+        "AXI_W_INTF",
+        "dQ6S0",
+        "module",
+        6
+    ],
+    "AXI_B_INTF": [
+        "AXI_B_INTF",
+        "cquvG",
+        "module",
+        7
+    ],
+    "AXI_AR_INTF": [
+        "AXI_AR_INTF",
+        "ZNusf",
+        "module",
+        8
+    ],
+    "AXI_R_INTF": [
+        "AXI_R_INTF",
+        "wrPqu",
+        "module",
+        9
+    ],
+    "APB_INTF": [
+        "APB_INTF",
+        "x4kpU",
+        "module",
+        10
+    ],
+    "STREAM_INTF": [
+        "STREAM_INTF",
+        "aGhrY",
+        "module",
+        11
+    ],
+    "STREAM_FIFOS_INTF": [
+        "STREAM_FIFOS_INTF",
+        "fjJei",
+        "module",
+        12
+    ],
+    "SOP_GEN": [
+        "SOP_GEN",
+        "V6tu9",
+        "module",
+        24
+    ],
+    "COMP_ENGINE": [
+        "COMP_ENGINE",
+        "rvBNZ",
+        "module",
+        13
+    ],
+    "COMP_INTF": [
+        "COMP_INTF",
+        "R16qG",
+        "module",
+        14
+    ],
+    "BPC_COMP": [
+        "BPC_COMP",
+        "FKGyK",
+        "module",
+        15
+    ],
+    "BPC_DBX_ENC": [
+        "BPC_DBX_ENC",
+        "UpzGP",
+        "module",
+        16
+    ],
+    "SR_COMP": [
+        "SR_COMP",
+        "Vuc3a",
+        "module",
+        17
+    ],
+    "DECOMP_TOP": [
+        "DECOMP_TOP",
+        "HFw5N",
+        "module",
+        19
+    ],
+    "DECODER_GROUP_0000": [
+        "DECODER_GROUP_0000",
+        "uf157",
+        "module",
+        20
+    ],
+    "DECODER": [
+        "DECODER",
+        "DyHpn",
+        "module",
+        21
+    ],
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
+        "module",
+        23
+    ]
+}

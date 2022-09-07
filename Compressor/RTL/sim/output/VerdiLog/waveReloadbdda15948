@@ -1,0 +1,186 @@
+Magic 271485
+Revision Verdi_R-2020.12-SP1-1
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort 0 25 2560 919 225 461
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / "" "/home/kkh/ZIP/22.08.02_CORE_ENGINE/RTL/sim/output/inter.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 0.000000 1.000000
+cursor 170000.000000
+marker 0.000000
+
+; user define markers
+; userMarker time_pos marker_name color linestyle
+; visible top row signal index
+top 0
+; marker line index
+markerPos 71
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByChange
+
+
+addGroup "u_COMP_ENGINE"
+activeDirFile "" "/home/kkh/ZIP/22.08.02_CORE_ENGINE/RTL/sim/output/inter.fsdb"
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/clk
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/rst_n
+addSignal -h 15 -UNSIGNED -HEX /tbench_top/DUT/u_comp/u_COMP_ENGINE/data_i[63:0]
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/ready_i
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/sop_i
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/eop_i
+addSignal -h 15 -UNSIGNED -HEX /tbench_top/DUT/u_comp/u_COMP_ENGINE/data_o[63:0]
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/valid_o
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/ready_o
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/sop_o
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/eop_o
+addGroup "ZE0" -e FALSE
+addSignal -h 15 -UNSIGNED -HEX /tbench_top/DUT/u_comp/u_COMP_ENGINE/ZE0/data_i[63:0]
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/ZE0/valid_i
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/ZE0/sop_i
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/ZE0/eop_i
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/ZE0/rst_n
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/ZE0/clk
+addSignal -h 15 -UNSIGNED -HEX /tbench_top/DUT/u_comp/u_COMP_ENGINE/ZE0/data_o[67:0]
+addSignal -h 15 -UNSIGNED -HEX /tbench_top/DUT/u_comp/u_COMP_ENGINE/ZE0/size_o[6:0]
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/ZE0/sop_o
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/ZE0/eop_o
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/ZE0/valid_o
+addGroup "ZEBUF" -e FALSE
+addSignal -h 15 -UNSIGNED -HEX /tbench_top/DUT/u_comp/u_COMP_ENGINE/ZEBUF/data_i[67:0]
+addSignal -h 15 -UNSIGNED -HEX /tbench_top/DUT/u_comp/u_COMP_ENGINE/ZEBUF/size_i[6:0]
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/ZEBUF/valid_i
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/ZEBUF/sop_i
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/ZEBUF/eop_i
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/ZEBUF/rst_n
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/ZEBUF/clk
+addSignal -h 15 -UNSIGNED -HEX /tbench_top/DUT/u_comp/u_COMP_ENGINE/ZEBUF/data_o[63:0]
+addSignal -h 15 -UNSIGNED -HEX /tbench_top/DUT/u_comp/u_COMP_ENGINE/ZEBUF/size_o[10:0]
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/ZEBUF/d_valid
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/ZEBUF/s_valid
+addGroup "G5"
+addSubGroup "SE0"
+addSignal -h 15 -UNSIGNED -HEX /tbench_top/DUT/u_comp/u_COMP_ENGINE/SE0/data_i[63:0]
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/SE0/valid_i
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/SE0/sop_i
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/SE0/eop_i
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/SE0/rst_n
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/SE0/clk
+addSignal -h 15 -UNSIGNED -HEX /tbench_top/DUT/u_comp/u_COMP_ENGINE/SE0/data_o[63:0]
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/SE0/size_o
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/SE0/d_valid
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/SE0/s_valid
+addSubGroup "FIFO_SR_D"
+addSignal -h 15 -UNSIGNED -HEX /tbench_top/DUT/u_comp/u_COMP_ENGINE/FIFO_SR_D/data_i[63:0]
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/FIFO_SR_D/wr_i
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/FIFO_SR_D/rd_i
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/FIFO_SR_D/rst_n
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/FIFO_SR_D/clk
+addSignal -h 15 -UNSIGNED -HEX /tbench_top/DUT/u_comp/u_COMP_ENGINE/FIFO_SR_D/data_o[63:0]
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/FIFO_SR_D/full_o
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/FIFO_SR_D/empty_o
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/FIFO_SR_D/threshold_o
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/FIFO_SR_D/overflow_o
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/FIFO_SR_D/underflow_o
+addSubGroup "FIFO_SR_S"
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/FIFO_SR_S/data_i[0:0]
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/FIFO_SR_S/wr_i
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/FIFO_SR_S/rd_i
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/FIFO_SR_S/rst_n
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/FIFO_SR_S/clk
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/FIFO_SR_S/data_o[0:0]
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/FIFO_SR_S/full_o
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/FIFO_SR_S/empty_o
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/FIFO_SR_S/threshold_o
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/FIFO_SR_S/overflow_o
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/FIFO_SR_S/underflow_o
+endSubGroup "FIFO_SR_S"
+endSubGroup "FIFO_SR_D"
+endSubGroup "SE0"
+addSubGroup "FIFO_ZRL_D" -e FALSE
+addSignal -h 15 -UNSIGNED -HEX /tbench_top/DUT/u_comp/u_COMP_ENGINE/FIFO_ZRL_D/data_i[63:0]
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/FIFO_ZRL_D/wr_i
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/FIFO_ZRL_D/rd_i
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/FIFO_ZRL_D/rst_n
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/FIFO_ZRL_D/clk
+addSignal -h 15 -UNSIGNED -HEX /tbench_top/DUT/u_comp/u_COMP_ENGINE/FIFO_ZRL_D/data_o[63:0]
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/FIFO_ZRL_D/full_o
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/FIFO_ZRL_D/empty_o
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/FIFO_ZRL_D/threshold_o
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/FIFO_ZRL_D/overflow_o
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/FIFO_ZRL_D/underflow_o
+addSubGroup "FIFO_ZRL_S"
+addSignal -h 15 -UNSIGNED -HEX /tbench_top/DUT/u_comp/u_COMP_ENGINE/FIFO_ZRL_S/data_i[10:0]
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/FIFO_ZRL_S/wr_i
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/FIFO_ZRL_S/rd_i
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/FIFO_ZRL_S/rst_n
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/FIFO_ZRL_S/clk
+addSignal -h 15 -UNSIGNED -HEX /tbench_top/DUT/u_comp/u_COMP_ENGINE/FIFO_ZRL_S/data_o[10:0]
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/FIFO_ZRL_S/full_o
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/FIFO_ZRL_S/empty_o
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/FIFO_ZRL_S/threshold_o
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/FIFO_ZRL_S/overflow_o
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/FIFO_ZRL_S/underflow_o
+endSubGroup "FIFO_ZRL_S"
+endSubGroup "FIFO_ZRL_D"
+addGroup "COMP_INTF0"
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/COMP_INTF0/clk
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/COMP_INTF0/rst_n
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/COMP_INTF0/valid_i
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/COMP_INTF0/sop_i
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/COMP_INTF0/ready_i
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/COMP_INTF0/sr_fifo_s_empty
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/COMP_INTF0/bpc_fifo_s_empty
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/COMP_INTF0/zrl_fifo_s_empty
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/COMP_INTF0/sr_fifo_s_out
+addSignal -h 15 -UNSIGNED -HEX /tbench_top/DUT/u_comp/u_COMP_ENGINE/COMP_INTF0/bpc_fifo_s_out[10:0]
+addSignal -h 15 -UNSIGNED -HEX /tbench_top/DUT/u_comp/u_COMP_ENGINE/COMP_INTF0/zrl_fifo_s_out[10:0]
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/COMP_INTF0/sr_fifo_s_th
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/COMP_INTF0/bpc_fifo_s_th
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/COMP_INTF0/zrl_fifo_s_th
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/COMP_INTF0/sr_fifo_d_full
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/COMP_INTF0/bpc_fifo_d_full
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/COMP_INTF0/zrl_fifo_d_full
+addSignal -h 15 -UNSIGNED -HEX /tbench_top/DUT/u_comp/u_COMP_ENGINE/COMP_INTF0/sr_fifo_d_out[63:0]
+addSignal -h 15 -UNSIGNED -HEX /tbench_top/DUT/u_comp/u_COMP_ENGINE/COMP_INTF0/bpc_fifo_d_out[63:0]
+addSignal -h 15 -UNSIGNED -HEX /tbench_top/DUT/u_comp/u_COMP_ENGINE/COMP_INTF0/zrl_fifo_d_out[63:0]
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/COMP_INTF0/valid_in
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/COMP_INTF0/sop_in
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/COMP_INTF0/ready_o
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/COMP_INTF0/sop_o
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/COMP_INTF0/eop_o
+addSignal -h 15 -UNSIGNED -HEX /tbench_top/DUT/u_comp/u_COMP_ENGINE/COMP_INTF0/data_o[63:0]
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/COMP_INTF0/valid_o
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/COMP_INTF0/data_rd_bpc
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/COMP_INTF0/data_rd_zrl
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/COMP_INTF0/data_rd_sr
+addSignal -h 15 /tbench_top/DUT/u_comp/u_COMP_ENGINE/COMP_INTF0/size_rd_all
+addGroup "G6"
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+

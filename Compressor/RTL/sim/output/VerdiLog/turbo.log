@@ -1,0 +1,2 @@
+Command Line: /usr/synopsys/verdi/R-2020.12-SP1-1/platform/LINUXAMD64/bin/Novas -f /home/kkh/AIDC/22.08.02_CORE_ENGINE/RTL/sim/..//sim/tb/filelist.f -f /home/kkh/AIDC/22.08.02_CORE_ENGINE/RTL/sim/..//rtl/filelist.f -i simv
+uname(Linux SALserver01 5.4.0-124-generic #140~18.04.1-Ubuntu SMP Fri Aug 5 11:43:34 UTC 2022 x86_64)

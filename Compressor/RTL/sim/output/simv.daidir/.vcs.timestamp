@@ -1,0 +1,131 @@
+2        
+0 AMBA_TYPEDEFS.svh
+0 /usr/synopsys/vcs/R-2020.12-SP1-1/etc/systemverilog/AMBA_TYPEDEFS.svh
+34
++itf+/usr/synopsys/vcs/R-2020.12-SP1-1/linux64/lib/vcsdp_lite.tab
++vcsd1
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/usr/synopsys/vcs/R-2020.12-SP1-1/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -Wl,--no-as-needed -rdynamic
+-Mobjects= /usr/synopsys/vcs/R-2020.12-SP1-1/linux64/lib/libvirsim.so /usr/synopsys/vcs/R-2020.12-SP1-1/linux64/lib/liberrorinf.so /usr/synopsys/vcs/R-2020.12-SP1-1/linux64/lib/libsnpsmalloc.so /usr/synopsys/vcs/R-2020.12-SP1-1/linux64/lib/libvfs.so
+-Mout=simv
+-Msaverestoreobj=/usr/synopsys/vcs/R-2020.12-SP1-1/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=/usr/synopsys/verdi/R-2020.12-SP1-1/share/PLI/VCS/LINUX64/pli.a -ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/usr/synopsys/vcs/R-2020.12-SP1-1/include
+-Mxllcflags=
+-P
+-Xufe=2steps
+-debug_access+all
+-f /home/kkh/AIDC/22.08.02_CORE_ENGINE/RTL/sim/..//rtl/filelist.f
+-f /home/kkh/AIDC/22.08.02_CORE_ENGINE/RTL/sim/..//sim/tb/filelist.f
+-fsdb
+-full64
+-gen_obj
+-kdb
+-picarchive
+/usr/synopsys/vcs/R-2020.12-SP1-1/linux64/bin/vcs1
+/usr/synopsys/verdi/R-2020.12-SP1-1/share/PLI/VCS/LINUX64/verdi.tab
+/home/kkh/AIDC/22.08.02_CORE_ENGINE/RTL/sim/..//sim/tb/filelist.f
+/home/kkh/AIDC/22.08.02_CORE_ENGINE/RTL/sim/..//rtl/filelist.f
+44
+_CE_M=
+_CE_CONDA=
+XDG_SESSION_ID=272
+XDG_RUNTIME_DIR=/run/user/1013
+XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop
+VMR_MODE_FLAG=64
+VERDI_HOME=/usr/synopsys/verdi/R-2020.12-SP1-1
+VCS_MX_HOME_INTERNAL=1
+VCS_MODE_FLAG=64
+VCS_HOME=/usr/synopsys/vcs/R-2020.12-SP1-1
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux64
+UNAME=/bin/uname
+TOOL_HOME=/usr/synopsys/vcs/R-2020.12-SP1-1/linux64
+SSH_TTY=/dev/pts/10
+SSH_CONNECTION=115.145.211.114 55080 115.145.211.247 8002
+SSH_CLIENT=115.145.211.114 55080 8002
+SPYGLASS_HOME=/usr/synopsys/spyglass/P-2019.06-SP2-17/SPYGLASS_HOME
+SNPS_VERDI_INTERNAL_LP_XML_NEW_FLOW=1
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+ROOT_PATH=/home/kkh/AIDC/22.08.02_CORE_ENGINE/RTL/sim/../
+OVA_UUM=0
+LESSOPEN=| /usr/bin/lesspipe %s
+LESSCLOSE=/usr/bin/lesspipe %s %s
+LC_TIME=ko_KR.UTF-8
+LC_TELEPHONE=ko_KR.UTF-8
+LC_PAPER=ko_KR.UTF-8
+LC_NUMERIC=ko_KR.UTF-8
+LC_NAME=ko_KR.UTF-8
+LC_MONETARY=ko_KR.UTF-8
+LC_MEASUREMENT=ko_KR.UTF-8
+LC_IDENTIFICATION=ko_KR.UTF-8
+LC_ALL=C
+LC_ADDRESS=ko_KR.UTF-8
+DC_HOME=/usr/synopsys/syn/Q-2019.12-SP5-5
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1013/bus
+CONDA_SHLVL=1
+CONDA_PYTHON_EXE=/compuworks/anaconda3/bin/python
+CONDA_PROMPT_MODIFIER=(base) 
+CONDA_PREFIX=/compuworks/anaconda3
+CONDA_EXE=/compuworks/anaconda3/bin/conda
+CONDA_DEFAULT_ENV=base
+0
+39
+1661963380 /home/kkh/AIDC/22.08.02_CORE_ENGINE/RTL/sim/..//rtl/AMBA_TYPEDEFS.svh
+1661963380 /home/kkh/AIDC/22.08.02_CORE_ENGINE/RTL/sim/..//rtl/FIFO_66.v
+1661963380 /home/kkh/AIDC/22.08.02_CORE_ENGINE/RTL/sim/..//rtl/FIFO.v
+1661963380 /home/kkh/AIDC/22.08.02_CORE_ENGINE/RTL/sim/..//rtl/BPC_DECOMP.sv
+1661963380 /home/kkh/AIDC/22.08.02_CORE_ENGINE/RTL/sim/..//rtl/SR_DECOMP.sv
+1661963380 /home/kkh/AIDC/22.08.02_CORE_ENGINE/RTL/sim/..//rtl/ZRLE_DECOMP.sv
+1661963380 /home/kkh/AIDC/22.08.02_CORE_ENGINE/RTL/sim/..//rtl/DECODER_GROUP.sv
+1661963380 /home/kkh/AIDC/22.08.02_CORE_ENGINE/RTL/sim/..//rtl/DECOMP_TOP.v
+1662532879 /home/kkh/AIDC/22.08.02_CORE_ENGINE/RTL/sim/..//rtl/ZRLE_CODEBUF.sv
+1661963380 /home/kkh/AIDC/22.08.02_CORE_ENGINE/RTL/sim/..//rtl/ZRLE_COMP.sv
+1661963380 /home/kkh/AIDC/22.08.02_CORE_ENGINE/RTL/sim/..//rtl/SR_COMP.sv
+1661963380 /home/kkh/AIDC/22.08.02_CORE_ENGINE/RTL/sim/..//rtl/BPC_CODEBUF.sv
+1661963380 /home/kkh/AIDC/22.08.02_CORE_ENGINE/RTL/sim/..//rtl/BPC_DBX_ENC.sv
+1661963380 /home/kkh/AIDC/22.08.02_CORE_ENGINE/RTL/sim/..//rtl/BPC_COMP.sv
+1661963380 /home/kkh/AIDC/22.08.02_CORE_ENGINE/RTL/sim/..//rtl/COMP_INTF.sv
+1662476596 /home/kkh/AIDC/22.08.02_CORE_ENGINE/RTL/sim/..//rtl/COMP_ENGINE.sv
+1662555353 /home/kkh/AIDC/22.08.02_CORE_ENGINE/RTL/sim/..//rtl/COMP_MUX.sv
+1662470722 /home/kkh/AIDC/22.08.02_CORE_ENGINE/RTL/sim/..//rtl/COMP_TOP.sv
+1661963380 /home/kkh/AIDC/22.08.02_CORE_ENGINE/RTL/sim/..//rtl/SOP_GEN.sv
+1661963380 /home/kkh/AIDC/22.08.02_CORE_ENGINE/RTL/sim/..//rtl/AIDC_TOP.sv
+1661963380 /home/kkh/AIDC/22.08.02_CORE_ENGINE/RTL/sim/..//rtl/STREAM_INTF.sv
+1661963380 /home/kkh/AIDC/22.08.02_CORE_ENGINE/RTL/sim/..//rtl/AMBA_INTF.sv
+1662540483 /home/kkh/AIDC/22.08.02_CORE_ENGINE/RTL/sim/..//sim/tb/TestBench.sv
+1661963380 /home/kkh/AIDC/22.08.02_CORE_ENGINE/RTL/sim/..//sim/tb/Test.sv
+1662540506 /home/kkh/AIDC/22.08.02_CORE_ENGINE/RTL/sim/..//sim/tb/Environment.sv
+1661963380 /home/kkh/AIDC/22.08.02_CORE_ENGINE/RTL/sim/..//sim/tb/Scoreboard.sv
+1661963380 /home/kkh/AIDC/22.08.02_CORE_ENGINE/RTL/sim/..//sim/tb/Monitor/rMonitor.sv
+1661963380 /home/kkh/AIDC/22.08.02_CORE_ENGINE/RTL/sim/..//sim/tb/Monitor/wdMonitor.sv
+1661963380 /home/kkh/AIDC/22.08.02_CORE_ENGINE/RTL/sim/..//sim/tb/Driver/rDriver.sv
+1661963380 /home/kkh/AIDC/22.08.02_CORE_ENGINE/RTL/sim/..//sim/tb/Driver/rdDriver.sv
+1662539027 /home/kkh/AIDC/22.08.02_CORE_ENGINE/RTL/sim/..//sim/tb/Driver/wdDriver.sv
+1661963380 /home/kkh/AIDC/22.08.02_CORE_ENGINE/RTL/sim/..//sim/tb/Driver/wDriver.sv
+1661963380 /home/kkh/AIDC/22.08.02_CORE_ENGINE/RTL/sim/..//sim/tb/Generator.sv
+1661963380 /home/kkh/AIDC/22.08.02_CORE_ENGINE/RTL/sim/..//sim/tb/Transaction.sv
+1661963380 /home/kkh/AIDC/22.08.02_CORE_ENGINE/RTL/sim/..//sim/tb/timescale.v
+1661963380 /home/kkh/AIDC/22.08.02_CORE_ENGINE/RTL/sim/..//rtl/filelist.f
+1661963380 /home/kkh/AIDC/22.08.02_CORE_ENGINE/RTL/sim/..//sim/tb/filelist.f
+1618931515 /usr/synopsys/verdi/R-2020.12-SP1-1/share/PLI/VCS/LINUX64/verdi.tab
+1618974649 /usr/synopsys/vcs/R-2020.12-SP1-1/linux64/lib/vcsdp_lite.tab
+4
+1618976102 /usr/synopsys/vcs/R-2020.12-SP1-1/linux64/lib/libvirsim.so
+1618975343 /usr/synopsys/vcs/R-2020.12-SP1-1/linux64/lib/liberrorinf.so
+1618975120 /usr/synopsys/vcs/R-2020.12-SP1-1/linux64/lib/libsnpsmalloc.so
+1618975339 /usr/synopsys/vcs/R-2020.12-SP1-1/linux64/lib/libvfs.so
+1662555358 simv.daidir
+-1 partitionlib
