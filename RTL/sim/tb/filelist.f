@@ -1,0 +1,16 @@
+-sverilog
+$ROOT_PATH/sim/tb/timescale.v
+$ROOT_PATH/sim/tb/Transaction.sv
+$ROOT_PATH/sim/tb/Generator.sv
+$ROOT_PATH/sim/tb/Driver/wDriver.sv
+$ROOT_PATH/sim/tb/Driver/wdDriver.sv
+$ROOT_PATH/sim/tb/Driver/rdDriver.sv
+$ROOT_PATH/sim/tb/Driver/rDriver.sv
+//$ROOT_PATH/sim/tb/Interface/wInterface.sv
+//$ROOT_PATH/sim/tb/Interface/rInterface.sv
+$ROOT_PATH/sim/tb/Monitor/wdMonitor.sv
+$ROOT_PATH/sim/tb/Monitor/rMonitor.sv
+$ROOT_PATH/sim/tb/Scoreboard.sv
+$ROOT_PATH/sim/tb/Environment.sv
+$ROOT_PATH/sim/tb/Test.sv
+$ROOT_PATH/sim/tb/TestBench.sv
